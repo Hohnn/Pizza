@@ -17,7 +17,7 @@ ul {
 }
 
 header {
-    background-image: url(/assets/img/bg-pizza.jpg);
+    background-image: url(../img/bg-pizza.jpg);
     background-size: cover;
     height: 40vw;
     background-position: center;
