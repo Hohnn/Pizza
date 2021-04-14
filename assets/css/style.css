@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -99,3 +100,17 @@ a {
     min-width: 300px;
 }
 
+.scrollSpyPad {
+    height: 50px;
+    position: absolute;
+    top: -50px;
+
+    
+}
+@media screen and (max-width: 780px) {
+    .scrollSpyPad {
+        top: -120px;
+    
+        
+    }  
+}
