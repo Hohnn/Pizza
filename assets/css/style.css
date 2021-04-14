@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/assets/img/bg-pizza.jpg);
+    background-size: cover;
+    height: 40vw;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 6vw;
+    width: auto !important;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h4 {
+    border-bottom: 1px solid white;
+}
+
+.card h5 {
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price {
+    border: 1px solid rgba(255, 255, 255, 0.144);
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+nav {
+    position: sticky !important;
+    top: 0;
+    z-index: 5;
+}
+
+.card {
+    height: 100%;
+}
+
+.active {
+    color: white !important;
+    background-color: #FFE53B !important;
+    background-image: linear-gradient(121deg, #FFE53B 0%, #FF2525 74%) !important; 
+
+
+}
+
+.btn-primary {
+    background-color: #FFE53B !important;
+    background-image: linear-gradient(121deg, #FFE53B 0%, #FF2525 74%) !important;
+    border: none;
+
+}
+
+.btn-light {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 #ffffff2a;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+a {
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border: none;
+}
+
+.card-body {
+    min-width: 300px;
+}
+
